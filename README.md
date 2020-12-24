@@ -15,6 +15,5 @@ Steps to build and run
 * - sudo git clone https://github.com/eumagnun/config-server.git
 * - cd config-server/config-server
 * - sudo mvn install
-* - sudo java -jar target/config-server-0.0.1-SNAPSHOT.jar
-* - sudo docker build -t springio/gs-spring-boot-docker .
-* - sudo docker run -d -p 8080:8888 springio/gs-spring-boot-docker
+* - sudo docker build -t eumagnun/config-server .
+* - sudo docker run -d -p 80:8761 springio/gs-spring-boot-docker
