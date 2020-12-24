@@ -13,4 +13,4 @@ Steps to first deploy
 * 09 - sudo mvn install
 * 10 - sudo java -jar target/config-server-0.0.1-SNAPSHOT.jar
 * 11 - sudo docker build -t springio/gs-spring-boot-docker .
-* 12 - 
+* 12 - sudo docker run -d -p 8080:8888 springio/gs-spring-boot-docker
