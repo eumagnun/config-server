@@ -16,4 +16,4 @@ Steps to build and run
 * - cd config-server/config-server
 * - sudo mvn install
 * - sudo docker build -t eumagnun/config-server .
-* - sudo docker run -d -p 80:8761 springio/gs-spring-boot-docker
+* - sudo docker run -d -p 80:8761 eumagnun/config-server
