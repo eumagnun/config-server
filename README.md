@@ -2,7 +2,9 @@
 
 Steps to first deploy
 
-* 01 - sudo apt-get install default-jdk
+* 01 - sudo add-apt-repository ppa:openjdk-r/ppa
+       sudo apt-get update
+       sudo apt install openjdk-11-jdk
 * 02 - sudo apt install maven
 * 03 - sudo apt install git
 * 04 - install docker -> https://docs.docker.com/engine/install/ubuntu/#install-using-the-repository
