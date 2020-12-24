@@ -1,6 +1,6 @@
 # config-server
 
-Step to first deploy
+Steps to first deploy
 
 * 1 - sudo apt-get install default-jdk
 * 2 - sudo apt install maven
