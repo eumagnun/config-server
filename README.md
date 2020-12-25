@@ -20,7 +20,9 @@ Steps to first deploy
 * export JAVA_HOME
 * export PATH
 * 
-
+* sudo nano /etc/environment
+* JAVA_HOME=/usr/java/openjdk/jdk-15.0.1
+*
 * -- reboot
 * -- java -version
 * 02 - sudo apt install maven
